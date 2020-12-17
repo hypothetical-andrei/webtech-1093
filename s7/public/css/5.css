@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+.menu-bar{
+  position: fixed;
+  top: 0px;
+  background-color: tomato;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  z-index: 1;
+}
+
+.menu-item {
+  width: 100px;
+  display: inline-block;
+  border: 3px dashed orange;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 50px;
+}
+
+.content {
+  position: relative;
+  top: 50px;
+}
