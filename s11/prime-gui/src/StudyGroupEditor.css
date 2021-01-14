@@ -1,0 +1,16 @@
+.study-group-editor .centered {
+  display: flex;
+  justify-content: center;
+}
+
+.study-group-editor .ops {
+  display: flex;
+  justify-content: center;
+}
+
+.study-group-editor .spaced {
+  margin-right: 10px;
+}
+
+
+

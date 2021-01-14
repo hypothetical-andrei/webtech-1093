@@ -24,6 +24,10 @@ class StudyGroupDetails extends React.Component {
     this.delete = (id) => {
       this.store.deleteOne(id)
     }
+
+    this.save = (id, student) => {
+      this.store.saveOne(id, student)
+    }
   }
 
   componentDidMount() {
@@ -42,7 +46,7 @@ class StudyGroupDetails extends React.Component {
         i will be the details for {this.props.item}
         <div>
           {
-            this.state.students.map(e => <Student item={e} key={e.id} onDelete={this.delete} />)
+            this.state.students.map(e => <Student item={e} key={e.id} onDelete={this.delete} onSave={this.save} />)
           }
         </div>
         <StudentAddForm onAdd={this.add} />

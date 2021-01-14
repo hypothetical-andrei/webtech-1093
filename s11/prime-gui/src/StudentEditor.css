@@ -1,0 +1,16 @@
+.student-editor .centered {
+  display: flex;
+  justify-content: center;
+}
+
+.student-editor .ops {
+  display: flex;
+  justify-content: center;
+}
+
+.student-editor .spaced {
+  margin-right: 10px;
+}
+
+
+
